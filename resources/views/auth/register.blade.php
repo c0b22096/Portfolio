@@ -21,7 +21,7 @@
                 <input type="password" name="password" placeholder="パスワード">
             </div>
             <div class="form-item">
-                <input type="password" name="password_confirmation" placeholder="もう一度入力">
+                <input type="password" name="password_confirmation" placeholder="パスワード再入力">
             </div>
             <div class="button-panel">
                 <input type="submit" title="Register" value="Register"></input>

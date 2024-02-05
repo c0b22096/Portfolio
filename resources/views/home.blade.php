@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>マイページ</h1>
+    <p>hello world</p>
 </body>
 </html>

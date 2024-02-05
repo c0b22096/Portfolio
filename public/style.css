@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
 
 body{
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: "Open sans", "Noto Sans JP", sans-serif;
     color: #5e5e5e;
+    box-sizing: border-box;
 }
 
 .container{
-    width: 300px;
-    margin: 3rem auto;
+    max-width: 370px;
+    margin: 3em auto;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 2em 1em;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);;
@@ -17,7 +19,11 @@ body{
 
 h1{
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 1em;
+}
+
+form{
+    padding: 0 1.5em;
 }
 
 .form-item{
@@ -34,11 +40,14 @@ h1{
 }
 
 .form-item input:focus{
+    border-bottom: 2px solid #c0c0c0;
     outline: none;
 }
 
 .button-panel{
     width: 100%;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
 }
 
 .button-panel input{
@@ -48,10 +57,22 @@ h1{
     border-radius: 5px;
     background-color: #feb350;
     color: #ffffff;
-    margin: 10px 0;
     text-align: center;
 }
 
 .button-panel input:hover{
     background-color: #ffd59f;
+}
+
+.link{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #888888;
+}
+
+a:hover{
+    color: #c0c0c0;
 }
