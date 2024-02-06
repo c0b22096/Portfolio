@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -24,7 +25,7 @@
                 <input type="password" name="password_confirmation" placeholder="パスワード再入力">
             </div>
             <div class="button-panel">
-                <input type="submit" title="Register" value="Register"></input>
+                <input type="submit" title="Register" value="Register">
             </div>
         </form>
     </div>

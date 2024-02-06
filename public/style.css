@@ -67,12 +67,3 @@ form{
 .link{
     text-align: center;
 }
-
-a{
-    text-decoration: none;
-    color: #888888;
-}
-
-a:hover{
-    color: #c0c0c0;
-}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3{
+    font-size: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #504d4d;
+}
+
+a:hover{
+    color: #c0c0c0;
+}
+
+ul{
+    list-style: none;
+}
+
+input{
+    border: none;
+}

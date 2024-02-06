@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,9 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['middleware' => ['auth']], function () {
-    Route::get("/home", function(){
-        return view("home");
-    });    
-    // Route::resource('/articles', ArticleController::class);
-});
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+// Route::group(['middleware' => ['auth']], function () {    
+//     Route::resource('/articles', ArticleController::class);
+// });

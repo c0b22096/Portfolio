@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+body{
+    font-family: "Open sans", "Noto Sans JP", sans-serif;
+    color: #5e5e5e;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15em;
+    padding-right: 10em;
+}
+
+.header ul{
+    display: flex;
+    text-align: center;
+}
+
+.header ul li{
+    width: 6em;
+}
+
+.logo{
+    text-align: center;
+}
+
+.container{
+    background-color: antiquewhite;
+}
