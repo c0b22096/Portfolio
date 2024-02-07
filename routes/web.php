@@ -19,6 +19,5 @@ Route::get('/', function () {
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-// Route::group(['middleware' => ['auth']], function () {    
-//     Route::resource('/articles', ArticleController::class);
+// Route::group(['middleware' => ['auth']], function () {
 // });

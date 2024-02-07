@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="/common.css">
 </head>
 <body>
+    {{-- ナビゲーション --}}
     <div class="header">
         <div class="logo">
-            <p>[]</p>
-            <p>XXXXX</p>
+            <p>SHOP LIST</p>
         </div>
         <ul>
             <li><a href="{{ route('home') }}">TOP</a></li>
             <li><a href="">商品一覧</a></li>
-            <li><a href="">カート</a></li>
+            <li><a href="">あああ</a></li>
             <li><a href="{{ route('login') }}">ログイン</a></li>
             <li><a href="{{ route('register') }}">新規登録</a></li>
-            <li><a href="">あああ</a></li>
+            <li><a href=""><img src="/cart_mark.svg" alt="cart_mark"></a></li>
         </ul>
     </div>
+    {{-- 本文 --}}
     <div class="container">
-        <img src="fd401302.jpg" alt="画像なし">
     </div>
 </body>
 </html>

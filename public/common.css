@@ -12,21 +12,29 @@ body{
     align-items: center;
     padding-left: 15em;
     padding-right: 10em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.logo{
+    font-size: 1.3em;
 }
 
 .header ul{
     display: flex;
-    text-align: center;
+    align-items: center;
 }
 
 .header ul li{
-    width: 6em;
+    margin-left: 2.5em;
 }
 
-.logo{
-    text-align: center;
+.header ul li img{
+    width: 25px;
 }
 
 .container{
-    background-color: antiquewhite;
+    height: 652px;
+    background-image: url(onepiece.jpg);
+    background-size: contain;
 }

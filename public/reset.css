@@ -24,3 +24,8 @@ ul{
 input{
     border: none;
 }
+
+img{
+    max-width: 100%;
+    display: block;
+}
