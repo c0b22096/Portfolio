@@ -16,8 +16,8 @@ class ProductController extends Controller
      */
     public function index(Category $category)
     {
-        $menus = Product::where('category_id', '=', $category->id)->get();
-        $data = ['menus' => $menus];
+        $products = Product::where('category_id', '=', $category->id)->get();
+        $data = ['products' => $products];
         return view('article.menus', $data);
     }
 

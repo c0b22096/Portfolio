@@ -3,7 +3,7 @@
 
 body{
     font-family: "Open sans", "Noto Sans JP", sans-serif;
-    color: #5e5e5e;
+    /* color: #5e5e5e; */
 }
 
 .header{
@@ -32,9 +32,3 @@ body{
 .header ul li img{
     width: 25px;
 }
-
-/* .container{
-    height: 652px;
-    background-image: url(onepiece.jpg);
-    background-size: contain;
-} */

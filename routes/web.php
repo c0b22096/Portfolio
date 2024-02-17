@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
-
+use App\Http\Controllers\CartController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,14 +22,13 @@ Route::get('/', function () {
 });
 
 Route::get('/menus/{category}', [ProductController::class, 'index'])->name('menus');
-
 Route::get('/create', [CategoryController::class, 'index'])->name('create');
-
 Route::get('/categories', [CategoryController::class, 'index_2'])->name('categories');
-
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-
 Route::post('/home', [ProductController::class, 'store'])->name('store');
 
-// Route::group(['middleware' => ['auth']], function () {
-// });
+Route::group(['middleware' => ['auth']], function () {
+    Route::post('/menus/{product}/incart', [CartController::class, 'store'])->name('incart');
+    Route::delete('/menus/{product}/outcart', [CartController::class, 'destroy'])->name('outcart');
+    
+});

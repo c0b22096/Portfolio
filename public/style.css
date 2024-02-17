@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
 
-body{
-    font-family: "Open sans", "Noto Sans JP", sans-serif;
-    color: #5e5e5e;
-}
-
 .container{
     max-width: 370px;
     margin: 3em auto;
@@ -44,7 +39,6 @@ body{
 
 .button-panel{
     margin-top: 2.5em;
-    margin-bottom: 1em;
 }
 
 .button-panel input{
@@ -86,4 +80,33 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     height: 850px;
+}
+
+.menu-box{
+    max-width: 370px;
+    max-height: 311px;
+    margin: 3em 1em;
+    padding-bottom: 1em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.menu-box img{
+    border-radius: 5px;
+}
+
+.menu-text{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.menus{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
